@@ -231,13 +231,6 @@ Set up alerts for:
 
 ## Manual TTL Extension
 
-> **Known-broken state:** The scheduled `extend-ttls.yml` job has failed on every
-> recent run (see #578, #579, #580, and the separately filed automation bug).
-> Until that automation issue is fixed, treat the "Manual Intervention Required"
-> issue it files each week as expected, and follow this runbook every time it
-> fires. Remove this note once the underlying automation bug is resolved and the
-> cron can be trusted again.
-
 When the automated `Extend Contract TTLs` workflow fails, or you need to extend
 TTLs outside the schedule, run `scripts/extend-ttls.sh` directly.
 

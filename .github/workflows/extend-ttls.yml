@@ -1,9 +1,9 @@
 name: Extend Contract TTLs
 
 on:
-  # Weekly: every Monday at 06:00 UTC.
-  schedule:
-    - cron: "0 6 * * 1"
+  # Weekly: every Monday at 06:00 UTC. (Disabled until mainnet deployment)
+  # schedule:
+  #   - cron: "0 6 * * 1"
   # Manual trigger for ad-hoc extension.
   workflow_dispatch:
     inputs:
